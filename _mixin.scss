@@ -1,0 +1,31 @@
+@mixin linktree($border-color) {
+    
+    background-color: $background-card;
+    border: 1px solid $border-color;
+    color: $border-color;
+    transition: all 0.8s;
+
+    h4 {
+
+        a {
+            color: $border-color;
+        }
+
+    }
+
+    &:hover {
+
+        background-color: $border-color;
+        border: 1px solid $background-card;
+        
+        h4 {
+
+            a {
+                color: $background-card;
+            }
+    
+        }
+
+    }
+
+}

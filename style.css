@@ -1,0 +1,228 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  color: #f8f8f8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #23272A;
+}
+
+nav {
+  background-color: #282C35;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  display: none;
+}
+
+nav .navbar-left .container-navbar-left {
+  float: left;
+  margin: 5px 20px;
+}
+
+nav .navbar-left .container-navbar-left .slogan {
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+nav .navbar-right .container-navbar-right {
+  float: right;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+nav .navbar-right .container-navbar-right ul li {
+  float: left;
+}
+
+nav .navbar-right .container-navbar-right ul li a {
+  padding: 0px 25px;
+  display: block;
+  float: left;
+  background-color: #2E323D;
+  line-height: 60px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+nav .navbar-right .container-navbar-right ul li a:hover {
+  background-color: #FBAB7E;
+}
+
+nav .navbar-right .container-navbar-right ul li a:active {
+  background-color: #74EBD5;
+}
+
+.top {
+  padding: 30px 0 0 0;
+}
+
+.top .top-wrapper {
+  text-align: center;
+  padding: 60px 0 50px 0;
+}
+
+.top .top-wrapper .avatar-hamster {
+  background-image: url("https://images-ext-1.discordapp.net/external/on70in54InrZ-UDV4jK0ezXBVFUqk4dNfYHIxt-spwk/https/cdn.discordapp.com/icons/878869835805761596/d685fbdc273690a919010e761eda0c00.png");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
+  border: 2px solid #f8f8f8;
+  margin: 0px auto;
+}
+
+.top .top-wrapper h1 {
+  font-size: 36px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.top .top-wrapper p {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+.top .top-wrapper .sosmed a {
+  margin: 10px;
+}
+
+.top .top-wrapper .sosmed a:hover i.fa-instagram {
+  color: #8a3ab9;
+}
+
+.top .top-wrapper .sosmed a:hover i.fa-twitter {
+  color: #1DA1F2;
+}
+
+.top .top-wrapper .sosmed a:hover i.fa-discord {
+  color: #5865f2;
+}
+
+.top .top-wrapper .sosmed a:hover i.fa-github {
+  color: #333;
+}
+
+.top .top-wrapper .sosmed a:hover i.fa-youtube {
+  color: #FF0000;
+}
+
+.top .top-wrapper .sosmed a:hover i.fa-linkedin {
+  color: #2867B2;
+}
+
+.cards .a {
+  background-color: #282C35;
+  border: 1px solid #b0ebbf;
+  color: #b0ebbf;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cards .a h4 a {
+  color: #b0ebbf;
+}
+
+.cards .a:hover {
+  background-color: #b0ebbf;
+  border: 1px solid #282C35;
+}
+
+.cards .a:hover h4 a {
+  color: #282C35;
+}
+
+.cards .b {
+  background-color: #282C35;
+  border: 1px solid #99e9f4;
+  color: #99e9f4;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cards .b h4 a {
+  color: #99e9f4;
+}
+
+.cards .b:hover {
+  background-color: #99e9f4;
+  border: 1px solid #282C35;
+}
+
+.cards .b:hover h4 a {
+  color: #282C35;
+}
+
+.cards .c {
+  background-color: #282C35;
+  border: 1px solid #9599E2;
+  color: #9599E2;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cards .c h4 a {
+  color: #9599E2;
+}
+
+.cards .c:hover {
+  background-color: #9599E2;
+  border: 1px solid #282C35;
+}
+
+.cards .c:hover h4 a {
+  color: #282C35;
+}
+
+.cards .d {
+  background-color: #282C35;
+  border: 1px solid #5865f2;
+  color: #5865f2;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cards .d h4 a {
+  color: #5865f2;
+}
+
+.cards .d:hover {
+  background-color: #5865f2;
+  border: 1px solid #282C35;
+}
+
+.cards .d:hover h4 a {
+  color: #282C35;
+}
+
+.cards .card {
+  margin: 0 auto 20px auto;
+  width: 60%;
+  border-radius: 24px;
+  height: 80px;
+}
+
+.cards .card h4 {
+  text-align: center;
+  line-height: 80px;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.cards .card h4 a {
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */

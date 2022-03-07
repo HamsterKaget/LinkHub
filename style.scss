@@ -1,0 +1,223 @@
+@import './variable';
+@import './mixin';
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: $font-color;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $background-color;
+    
+
+}
+
+nav {
+    background-color: $background-card;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    
+    .navbar-left {
+    
+        .container-navbar-left {
+            float: left;
+            margin: 5px 20px;
+
+            .slogan {
+                font-size: 14px;
+                margin-top: -5px;
+            }
+        }
+
+    }
+
+    .navbar-right {
+
+        .container-navbar-right {
+            float: right;
+            height: fit-content;
+
+            ul {
+
+                li {
+                    float: left;
+
+                    a {
+                        padding: 0px 25px;
+                        display: block;
+                        float: left;
+                        background-color: $background-button;
+                        line-height: 60px;
+                        transition: all 0.8s;
+                        
+                        &:hover {
+                            background-color: $orange;
+                        }
+
+                        &:active {
+                            background-color: $sql;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+// Css for top section
+.top {
+
+    padding: 30px 0 0 0;
+
+    .top-wrapper {
+        text-align: center;
+        padding: 60px 0 50px 0;
+
+        .avatar-hamster {
+            background-image: url('https://images-ext-1.discordapp.net/external/on70in54InrZ-UDV4jK0ezXBVFUqk4dNfYHIxt-spwk/https/cdn.discordapp.com/icons/878869835805761596/d685fbdc273690a919010e761eda0c00.png');
+            width: 100px;
+            height: 100px;
+
+            background-size: cover;
+            background-position: top center;
+
+            border-radius: 50%;
+            border: 2px solid $font-color;
+            margin: 0px auto;
+            
+
+        }
+
+        h1 {
+            font-size: 36px;
+            letter-spacing: 3px;
+            margin-top: 10px;
+            text-transform: capitalize;
+            
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+            letter-spacing: 1.5px;
+        }
+
+        .sosmed {
+
+            a {
+                margin: 10px;
+
+                &:hover {
+
+                    i.fa-instagram {
+                        color: $instagram;
+                    }
+
+                    i.fa-twitter {
+                        color: $twitter;
+                    }
+
+                    i.fa-discord {
+                        color: $discord;
+                    }
+
+                    i.fa-github {
+                        color: $github;
+                    }
+
+                    i.fa-youtube {
+                        color: $youtube;
+                    }
+
+                    i.fa-linkedin {
+                        color: $linkedin;
+                    }
+
+                }
+
+            }
+
+        }
+
+
+    }
+
+}
+
+// a.button {
+//     height: 50px;
+//     width: 200px;
+//     margin: 20px auto;
+//     background-color: $blue;
+//     display: block;
+//     line-height: 50px;
+//     opacity: 0.7;
+//     border-radius: 12px;
+//     box-shadow: 0 5px darken($blue,20%);
+//     color: #ffffff;
+
+//     &:hover {
+//         opacity: 0.9;
+//     }
+
+//     &:active {
+//         position: relative;
+//         top: 5px;
+//         box-shadow: none;
+//     }
+// }
+
+.cards {
+
+    .a {
+        @include linktree($node);
+    }
+
+    .b {
+        @include linktree($react);
+    }
+
+    .c {
+        @include linktree($purple);
+    }
+
+    .d {
+        @include linktree($discord)
+    }
+
+    .card {
+        margin: 0 auto 20px auto;
+        width: 60%;
+        border-radius: 24px;
+        height: 80px;
+
+        h4 {
+            text-align: center;
+            line-height: 80px;
+            font-size: 24px;
+            letter-spacing: 2px;
+
+            a {
+                font-weight: 500;
+            }
+
+        }
+
+
+    }
+
+        
+
+}
