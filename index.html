@@ -5,15 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-
-    
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/38ab242903.js" crossorigin="anonymous"></script>
 
@@ -67,16 +64,16 @@
     </div>
 
     <div class="cards">
-        <div data-aos="fade-right" class="card a">
+        <div data-aos="fade-right" data-aos-delay="5000" class="card a">
             <h4><a href="#">HamsShop</a></h4>
         </div>
-        <div data-aos="fade-left" class="card b">
+        <div data-aos="fade-left" data-aos-delay="5000" class="card b">
             <h4><a href="#">Hamster Area</a></h4>
         </div>
-        <div data-aos="fade-right" class="card d">
+        <div data-aos="fade-right" data-aos-delay="5000"  class="card d">
             <h4><a href="#">Hams Bot</a></h4>
         </div>
-        <div data-aos="fade-left" class="card c">
+        <div data-aos="fade-left" data-aos-delay="5000" class="card c">
             <h4><a href="#">Discord Store ID</a></h4>
         </div>
     </div>
@@ -85,6 +82,24 @@
     <script>
         AOS.init();
     </script>
+
+    <hr class="garis">
+    <h2 class="sub-title">My certificate</h2>
+    <hr class="garis" style="width: 60%;">
+
+    <!-- JS untuk certificate carausel -->
+    <script src="slider.js"></script>
+    
+    <!-- certificate Carausel -->
+    <div class="slider-container">
+        <div class="slider fade">
+            <img id="image" src="./Sertifikat/HTML _ CSS/HTML-Progate.png" alt="">
+    
+            <a class="prev" onclick="Prev()">&#10094;</a>
+            <a class="next" onclick="Next()">&#10095;</a>
+        </div>
+    </div>
+
 
 
 </body>

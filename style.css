@@ -225,4 +225,91 @@ nav .navbar-right .container-navbar-right ul li a:active {
 .cards .card h4 a {
   font-weight: 500;
 }
+
+.garis {
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+
+.sub-title {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  margin: 10px auto -10px auto;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.slider-container {
+  margin: 50px 7.5% 50px 7.5%;
+  padding: 25px;
+  background-color: #282C35;
+  border-radius: 25px;
+}
+
+.slider-container .slider {
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-container .slider #image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.slider-container .slider .prev, .slider-container .slider .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 18px;
+  margin-top: -22px;
+  color: #F76B1C;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.slider-container .slider .prev:hover, .slider-container .slider .next:hover {
+  background-color: #282C35;
+}
+
+.slider-container .slider .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=style.css.map */
