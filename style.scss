@@ -190,11 +190,15 @@ nav {
     }
 
     .c {
-        @include linktree($purple);
+        @include linktree($discord);
     }
 
     .d {
-        @include linktree($discord)
+        @include linktree($java)
+    }
+
+    .e {
+        @include linktree($purple)
     }
 
     .card {

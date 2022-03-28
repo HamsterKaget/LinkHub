@@ -168,18 +168,18 @@ nav .navbar-right .container-navbar-right ul li a:active {
 
 .cards .c {
   background-color: #282C35;
-  border: 1px solid #9599E2;
-  color: #9599E2;
+  border: 1px solid #5865f2;
+  color: #5865f2;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
 
 .cards .c h4 a {
-  color: #9599E2;
+  color: #5865f2;
 }
 
 .cards .c:hover {
-  background-color: #9599E2;
+  background-color: #5865f2;
   border: 1px solid #282C35;
 }
 
@@ -189,22 +189,43 @@ nav .navbar-right .container-navbar-right ul li a:active {
 
 .cards .d {
   background-color: #282C35;
-  border: 1px solid #5865f2;
-  color: #5865f2;
+  border: 1px solid #FBAB7E;
+  color: #FBAB7E;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
 }
 
 .cards .d h4 a {
-  color: #5865f2;
+  color: #FBAB7E;
 }
 
 .cards .d:hover {
-  background-color: #5865f2;
+  background-color: #FBAB7E;
   border: 1px solid #282C35;
 }
 
 .cards .d:hover h4 a {
+  color: #282C35;
+}
+
+.cards .e {
+  background-color: #282C35;
+  border: 1px solid #9599E2;
+  color: #9599E2;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cards .e h4 a {
+  color: #9599E2;
+}
+
+.cards .e:hover {
+  background-color: #9599E2;
+  border: 1px solid #282C35;
+}
+
+.cards .e:hover h4 a {
   color: #282C35;
 }
 
@@ -265,11 +286,11 @@ nav .navbar-right .container-navbar-right ul li a:active {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 18px;
+  padding: 16px;
   margin-top: -22px;
   color: #F76B1C;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
